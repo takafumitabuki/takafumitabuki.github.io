@@ -29,9 +29,10 @@ span.red{
    }
    
    #logo img{
-       max-width: 120px;
+       max-width: 500px;
+       max-height: 150px;
        border:5px solid #fff;
-       border-radius: 100%
+       border-radius: 10%
    }
    
    #logo h1 {
@@ -66,12 +67,17 @@ nav ul li{
 
 nav ul li a.selected{
     color: #000;
-} */
+} 
 
 .container{
     max-width: 800px;
     margin:-100px auto 0;
     background-color: #fff;
+}
+
+.container{
+    margin:0px,0px;
+    padding:0px,0px;
 }
 
 section{
@@ -81,9 +87,19 @@ section{
     background-repeat: no-repeat;
 　　padding-bottom: 100px;
     padding:30px 20px;
+   
 }
 
 
+section ul li{
+     margin:0,500px;
+     display:inline-block;
+}
+
+ .linkimage { 
+    max-width: px;
+    text-align: center;
+}
 
 section h2{
     padding:10px 0 20px 0;
