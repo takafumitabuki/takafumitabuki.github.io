@@ -74,6 +74,15 @@ nav ul li a.selected{
     background-color: #fff;
 }
 
+
+#app ul {
+    list-style: none;
+}
+
+#app img {
+    width: 100%;
+}
+
 section{
     background-image: url("kaityu.jpg");
 　　background-position: center center;
@@ -83,7 +92,14 @@ section{
     padding:30px 20px;
 }
 
+section ul li a{
+     margin:0px;
+     padding:0px;
+}
 
+.col-sm-6{
+text-align: center;
+}
 
 section h2{
     padding:10px 0 20px 0;
